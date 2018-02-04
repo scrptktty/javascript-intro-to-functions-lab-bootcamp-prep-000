@@ -42,9 +42,8 @@ function sayHiToGrandma(string) {
 
 function testIfLowerCase(string) {
   var string = 'hello'
-  if string === string.
+  if string.toLowerCase()
     return `${string} is lowercase`
-  else 
+  else if string === string.toUpperCase
     return `${string} is uppercase`
-}
 }
